@@ -1,0 +1,178 @@
+
+/*----------Mobiilivaade 400 portrait-----------------*/
+@media only screen and (min-width: 60px) and (max-width: 500px){
+	#Breadcrumb{
+		display: none;
+	}
+
+	#MainFooter{
+		display: none;
+	}
+
+
+	#sidebar{
+		width: 100%;
+		float: left;
+		position: relative;
+	}
+
+	#MainSection{
+		width: 100%;
+		margin: 0 auto;
+
+	}
+
+	#MainSection img{
+		width: 100%;
+		height: auto;
+	}
+
+	#SecFooter{
+		margin: 0 auto;
+		width: 93%;
+
+	}
+
+	
+	.meny{
+		display: block;
+	}
+
+	.dropdown_content a{
+	font-size: 18px;
+	background-color: #2d546d;
+
+	}
+
+
+	.dropdown a:hover .dropdown_content {
+	    display: block;
+	}
+
+	nav ul li:hover ul{
+	    display: block;
+	}
+
+	nav ul ul{
+	    display:block;
+	    position: relative;
+	    
+	}
+    
+/*-----------Portfolio------------*/
+
+    #MainPortfolio img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+
+
+
+
+}
+
+/*----------------väike-tahvli vaade portrait----------------*/
+@media only screen and (min-width: 500px) and (max-width: 700px) {
+	#sidebar{
+		width: 40%;
+	}
+
+
+
+
+
+
+	#Breadcrumb{
+		display: none;
+
+	}
+
+	#MainSection{
+        width: 60%;
+		margin-top: 0px;
+		margin-left: 40%;
+		margin-right: 0%;
+		
+	}
+
+	#MainSection img{
+		width: 100%;
+	}
+
+	#SecFooter{
+		margin-left: 25%;
+		width: 70%;
+		margin-top: 0%;
+	}
+
+	
+
+
+	.dropdown_content a{
+	background-color: #2d546d;
+
+	}
+
+
+	.dropdown a:hover .dropdown_content {
+	    display: block;
+	}
+
+	nav ul li:hover ul{
+	    display: block;
+	}
+
+	nav ul ul{
+	    display:block;
+	    position: relative;
+	    
+	}
+
+	#MainFooter{
+		visibility: hidden;
+	}
+    
+    #SecFooter{
+        width: 55%;
+        margin-left: 40%;
+        margin-top: 0px;
+    }
+    
+/*-------------portfolio-----------*/
+
+    #MainPortfolio img{
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+
+/*-------------suurtahvli portrait----------------------*/
+
+@media only screen and (min-width: 701px) and (max-width: 1000px){
+    
+    #sidebar{
+		width: 25%;
+	}
+    
+    #Breadcrumb{
+		display: none;
+
+	}
+    
+    #MainSection{
+        width: 75%;
+		margin-top: 0px;
+		margin-left: 25%;
+		margin-right: 0%;
+		
+	}
+
+	#MainSection img{
+		width: 50%;
+        height: auto;
+	}
+}
