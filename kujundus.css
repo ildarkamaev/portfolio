@@ -181,7 +181,7 @@ nav ul ul{
 	margin: 20px;
 }
 
-#MainSection a{
+#MainSection img{
 	display: block;
 	float: left;
 	width: 25%;
@@ -191,19 +191,7 @@ nav ul ul{
 	
 }
 
-#MainSection img{
-	
-	width: 100%;
-	height: auto;
-	vertical-align: middle;
-	
-	
-}
 
-#MainSection a span{
-	position: absolute;
-	
-}
 
 #MainSection img:hover{
 	opacity: 0.1;
