@@ -213,7 +213,7 @@ nav ul ul{
 }
 
 #MainFooter p{
-	margin-top: 1px;
+	margin-top: 10px;
 	color: white;
 	text-align: center;
 }
@@ -244,8 +244,20 @@ nav ul ul{
 
 }
 
+#Conform{
+	margin-left: 20px;
+	margin-right: 50px;
+
+}
+
+#ConForm{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+
 label{
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-left: 20px;
 }
 
