@@ -33,7 +33,7 @@
 
 	}
 
-	
+
 	.meny{
 		display: block;
 	}
@@ -56,9 +56,9 @@
 	nav ul ul{
 	    display:block;
 	    position: relative;
-	    
+
 	}
-    
+
 /*-----------Portfolio------------*/
 
     #MainPortfolio img{
@@ -80,10 +80,6 @@
 	}
 
 
-
-
-
-
 	#Breadcrumb{
 		display: none;
 
@@ -94,7 +90,7 @@
 		margin-top: 0px;
 		margin-left: 40%;
 		margin-right: 0%;
-		
+		margin-bottom: 0px;
 	}
 
 	#MainSection img{
@@ -105,9 +101,10 @@
 		margin-left: 25%;
 		width: 70%;
 		margin-top: 0%;
+
 	}
 
-	
+
 
 
 	.dropdown_content a{
@@ -127,19 +124,19 @@
 	nav ul ul{
 	    display:block;
 	    position: relative;
-	    
+
 	}
 
 	#MainFooter{
 		visibility: hidden;
 	}
-    
+
     #SecFooter{
         width: 55%;
         margin-left: 40%;
         margin-top: 0px;
     }
-    
+
 /*-------------portfolio-----------*/
 
     #MainPortfolio img{
@@ -153,26 +150,34 @@
 /*-------------suurtahvli portrait----------------------*/
 
 @media only screen and (min-width: 701px) and (max-width: 1000px){
-    
+
     #sidebar{
 		width: 25%;
 	}
-    
+
     #Breadcrumb{
 		display: none;
 
 	}
-    
+
     #MainSection{
-        width: 75%;
+    width: 75%;
 		margin-top: 0px;
 		margin-left: 25%;
 		margin-right: 0%;
-		
+		margin-bottom: 0px;
+
 	}
 
 	#MainSection img{
 		width: 50%;
         height: auto;
 	}
+
+	#SecFooter{
+		margin-top: 0;
+		box-sizing: border-box;
+		width: 75%;
+	}
+
 }
