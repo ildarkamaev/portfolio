@@ -244,35 +244,58 @@ nav ul ul{
 
 }
 
-#Conform{
+#FindMe{
+	float:left;
+	display: block;
+	margin-top: 20px;
 	margin-left: 20px;
-	margin-right: 50px;
+	margin-right: 0px;
+	width: 50%;
 
 }
 
+#FindMe li{
+	padding: 0px;
+	margin: 0px;
+}
+
+#FindMe ul li{
+	font-size: 20px;
+	text-align: left;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+
 #ConForm{
-	margin-top: 30px;
-	margin-left: 20px;
+	display: left;
+	margin-top: 40px;
+	margin-left: 550px;
+
 }
 
 
 label{
+	font-weight:bold;
+	font-size: 20px;
 	padding-top: 40px;
 	padding-left: 20px;
 }
 
 input{
-	width:30%;
+	width:60%;
 	padding:10px;
 	margin: 10px;
 }
 
 textarea{
-	width: 50%;
+	width: 85%;
 	height: 200px;
 	padding: 10px;
 	margin: 10px;'
 	resize: none;
+	/*probleem resiziga ning lahtriga üldplaanis*/
 }
 
 input[type="text"]:focus{
