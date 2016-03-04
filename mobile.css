@@ -60,11 +60,16 @@
 	}
 
 /*-----------Portfolio------------*/
+	#MainPortfolio{
+		margin: 0px;
+		clear: both;
+		float: left;
+	}
 
     #MainPortfolio img{
         width: 100%;
         height: auto;
-        display: block;
+				margin-left: 0px;
     }
 
 

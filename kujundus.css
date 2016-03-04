@@ -293,7 +293,7 @@ input[type="submit"]:hover{
 }
 
 #MainPortfolio img{
-	display: block;
+	display: inline;
 	float: left;
 	width: 25%;
 }
