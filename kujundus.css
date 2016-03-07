@@ -370,6 +370,11 @@ input[type="submit"]:hover{
 
 }
 
+#AboutSection p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 #AboutSection img{
 	float: right;
 	margin: 10px;
