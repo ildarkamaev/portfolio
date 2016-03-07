@@ -143,6 +143,9 @@
     }
 
 /*-------------portfolio-----------*/
+	#MainPortfolio{
+		width: 60px;
+	}
 
     #MainPortfolio img{
         width: 100%;
@@ -185,4 +188,39 @@
 		width: 75%;
 	}
 
+/*------------Portfolio----------------------*/
+	#MainPortfolio{
+		width: 75%;
+		margin-left:25%;
+	}
+
+	#MainPortfolio img{
+		width: 50%;
+		height: auto;
+	}
+/*----------About-------------*/
+	#AboutSection{
+		margin-left: 25%;
+		width: 75%;
+		margin-top: 0px;
+	}
+
+/*-----------Contact-------------*/
+	#ConSection{
+		margin-top: 0px;
+		margin-left: 25%;
+		width: 75%;
+	}
+
+
+	#FindMe{
+		display: inline;
+		margin-right: 20px;
+		width: 100%;
+
+	}
+
+	#ConForm{
+		margin-left: 20px;
+	}
 }
