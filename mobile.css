@@ -59,6 +59,7 @@
 
 	}
 
+
 /*-----------Portfolio------------*/
 	#MainPortfolio{
 		margin: 0px;
@@ -72,9 +73,34 @@
 				margin-left: 0px;
     }
 
+/*---------AboutSection-----------------*/
+		#AboutSection{
+			margin-top: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+			width: 100%;
+		}
 
+		#AboutSection img{
+			display: block;
+			width: 100%
+			height: auto;
+		}
 
+		#AboutSection p{
+			display: block;
+		}
 
+/*---------Contact--------------*/
+	#ConSection{
+		margin: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+	#FindMe{
+		width: 100%;
+		
+	}
 
 }
 
