@@ -379,3 +379,34 @@ input[type="submit"]:hover{
 	float: right;
 	margin: 10px;
 }
+
+/*----------Services---------------*/
+.Services{
+	background-color: #f5f5f5;
+	float: left;
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: 26%;
+	margin-right: 2%;
+
+}
+
+.Services p{
+	margin: 20px;
+}
+
+.Services img{
+	display: block;
+	float: left;
+	width: 25%;
+	height: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
+
+
+
+.Services img:hover{
+	opacity: 0.1;
+}
