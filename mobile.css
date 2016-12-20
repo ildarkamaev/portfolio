@@ -93,6 +93,7 @@
 	}
 
 	#FindMe img{
+		padding: 10px;
 		padding-left: 0px;
 	}
 
@@ -101,6 +102,10 @@
 		float:left;
 		width: 100%;
 
+	}
+
+	input[type="submit"]{
+		margin-left: 10px;
 	}
 
 }
