@@ -314,7 +314,7 @@ input[type="submit"]:hover{
 }
 
 #MainPortfolio img:hover{
-	opacity: 0.1;
+	opacity: 0.8;
 }
 
 /*------------Projektileht------------------------*/
@@ -327,12 +327,24 @@ input[type="submit"]:hover{
 	margin-right: 0%;
 }
 
+.HeadImage{
+	width: 100%;
+	margin: 0px;
+}
+
 #Project h2{
 	margin-top: 0px;
 }
 
+#Project p{
+	font-size: 18px;
+	padding-left: 80px;
+	padding-right: 40px;
+}
 
-.projectImage img{
+
+
+.ProjectImage img{
 	display: inline;
 	float: left;
 	width: 25%;
@@ -370,7 +382,7 @@ input[type="submit"]:hover{
 }
 
 #AboutSection p{
-	font-size: 20px;
+	font-size: 18px;
 	padding-left: 40px;
 	padding-right: 20px;
 }
