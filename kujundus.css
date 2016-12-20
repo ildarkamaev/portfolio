@@ -317,6 +317,26 @@ input[type="submit"]:hover{
 	opacity: 0.1;
 }
 
+/*------------Projektileht------------------------*/
+#Project{
+	width: 80%;
+	float: left;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	margin-right: 0%;
+}
+
+#Project h2{
+	margin-top: 0px;
+}
+
+
+.projectImage img{
+	display: inline;
+	float: left;
+	width: 25%;
+
 
 
 /*
