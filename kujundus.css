@@ -132,19 +132,19 @@ nav ul ul{
 	display: none;
 }
 
-
+/*
 
 #Breadcrumb{
 	display: inline;
 	background-color:  #224359;
 	width: 75%;
 	height: 20px;
-	/*padding: 0px;
-	margin: 0px;*/
+	padding: 0px;
+	margin: 0px;
 	float: left;
 	margin-left: 25%;
 }
-
+*/
 /*
 #Breadcrumb ul li{
 	display: inline;
@@ -220,11 +220,11 @@ nav ul ul{
 
 #SecFooter{
 	float: left;
-	margin-left: 25%;
+	margin-left: 20%;
 
 	background-color: #384a57;
 	padding: 10px 10px 20px 20px;
-	width: 73%;
+	width: 80%;
 }
 
 #SecFooter p{
