@@ -368,3 +368,7 @@ input[type="submit"]:hover{
 .Services img:hover{
 	opacity: 0.1;
 }
+
+.meny{
+	display: none;
+}
