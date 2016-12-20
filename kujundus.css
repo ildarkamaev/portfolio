@@ -159,7 +159,7 @@ nav ul ul{
 	color: white;
 	margin-top: 0px;
 	padding-top: 20px;
-	margin-left: 20px;
+	margin-left: 40px;
 }
 
 #MainFooter p{
@@ -195,10 +195,10 @@ nav ul ul{
 #ConSection{
 	background-color: #f5f5f5;
 	float: left;
-	margin-top: 5%;
-	margin-left: 26%;
+	margin-top: 0%;
+	margin-left: 20%;
 	margin-bottom: 10%;
-	width: 72%;
+	width: 80%;
 
 
 }
@@ -226,6 +226,11 @@ nav ul ul{
 	list-style: none;
 }
 
+#FindMe p{
+	font-size: 20px;
+	margin-left: 20px;
+}
+
 
 #ConForm{
 	display: left;
@@ -249,7 +254,7 @@ input{
 }
 
 textarea{
-	width: 85%;
+	width: 80%;
 	height: 200px;
 	padding: 10px;
 	margin: 10px;'
@@ -264,6 +269,7 @@ input[type="text"]:focus{
 input[type="submit"]{
 	background-color: #224359;
 	padding: 10px;
+	margin-left: 55px;
 	border: none;
 	color: white;
 	font-size: 16px;
@@ -330,7 +336,7 @@ input[type="submit"]:hover{
 
 #AboutSection p{
 	font-size: 20px;
-	padding-left: 20px;
+	padding-left: 40px;
 	padding-right: 20px;
 }
 
