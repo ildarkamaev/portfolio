@@ -27,34 +27,13 @@
 		height: auto;
 	}
 
+
 	#SecFooter{
 		margin: 0 auto;
 		width: 93%;
 
 	}
 
-
-
-	.dropdown_content a{
-	font-size: 18px;
-	background-color: #2d546d;
-
-	}
-
-
-	.dropdown a:hover .dropdown_content {
-	    display: block;
-	}
-
-	nav ul li:hover ul{
-	    display: block;
-	}
-
-	nav ul ul{
-	    display:block;
-	    position: relative;
-
-	}
 
 
 /*-----------Portfolio------------*/
@@ -94,7 +73,27 @@
 		width: 100%;
 	}
 
+	#ConSection p{
+		margin-left: 10px;
+		width: 90%;
+	}
+
 	#FindMe{
+		width: 100%;
+
+	}
+
+	#FindMe ul li{
+		margin: 0 auto;
+	}
+
+	#FindMe img{
+		padding-left: 0px;
+	}
+
+	#ConForm{
+		margin-left: 20px;
+		float:left;
 		width: 100%;
 
 	}
