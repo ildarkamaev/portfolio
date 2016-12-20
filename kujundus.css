@@ -220,6 +220,15 @@ nav ul ul{
 	text-align: center;
 }
 
+#MainFooter img{
+	width: 12%;
+	height: 12%;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
 #SecFooter{
 	float: left;
 	margin-left: 20%;
