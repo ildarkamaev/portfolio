@@ -231,6 +231,22 @@ nav ul ul{
 	margin-left: 20px;
 }
 
+#FindMe h2{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#FindMe ul li{
+	display: inline;
+}
+
+#FindMe img{
+	height: 70px;
+	width: 70px;
+	padding: 20px;
+
+}
+
 
 #ConForm{
 	display: left;
