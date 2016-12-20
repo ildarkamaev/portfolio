@@ -10,7 +10,6 @@ body{
 
 #sidebar{
 	background-color: #224359;
-	/*background-color:  #396684*/;
 	width: 20%;
 	height: 100%;
 	margin-top: 0px;
@@ -104,19 +103,6 @@ nav ul li a:hover{
 }
 
 
-
-.dropdown_content a{
-	font-size: 18px;
-	background-color: #2d546d;
-
-}
-
-
-.dropdown a:hover .dropdown_content {
-    display: block;
-    animation-delay: 1s;
-}
-
 nav ul li:hover ul{
     display: block;
     animation-delay: 1s;
@@ -128,46 +114,7 @@ nav ul ul{
 
 }
 
-.meny{
-	display: none;
-}
 
-/*
-
-#Breadcrumb{
-	display: inline;
-	background-color:  #224359;
-	width: 75%;
-	height: 20px;
-	padding: 0px;
-	margin: 0px;
-	float: left;
-	margin-left: 25%;
-}
-*/
-/*
-#Breadcrumb ul li{
-	display: inline;
-	list-style-type: none;
-	margin-left: 5px;
-	margin-top: 90px;
-}
-
-#Breadcrumb ul li a{
-	/*padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 3px;
-	padding-right: 3px;
-	border-right: 1px white solid;
-	text-decoration: none;
-	color: white;
-}
-*/
-
-#Breadcrumb ul li a:hover{
-	background-color: #d75c37;
-
-}
 
 #MainSection{
 	background-color: #f5f5f5;
@@ -374,14 +321,14 @@ input[type="submit"]:hover{
 #AboutSection{
 	background-color: #f5f5f5;
 	float: left;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-left: 26%;
-	margin-right: 2%;
+	/*margin-top: 5%;*/
+	margin-left: 20%;
+	/*margin-right: 2%;*/
 
 }
 
 #AboutSection p{
+	font-size: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 }

@@ -34,9 +34,6 @@
 	}
 
 
-	.meny{
-		display: block;
-	}
 
 	.dropdown_content a{
 	font-size: 18px;
@@ -99,7 +96,7 @@
 
 	#FindMe{
 		width: 100%;
-		
+
 	}
 
 }
