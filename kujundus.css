@@ -2,7 +2,7 @@
 
 body{
 
-	background-color: #c3d7df;
+	background-color: #f5f5f5;
 	margin: 0px;
 	margin-top: 0px;
 	font-family: Arial, Helvetica, Sans-serif;
@@ -95,7 +95,7 @@ nav ul li a {
 	text-align: center;
 	color: white;
 	font-size: 20px;
-	padding: 10px 10px 10px 10px;
+	padding: 25px 10px 25px 10px;
 
 }
 
@@ -172,10 +172,10 @@ nav ul ul{
 #MainSection{
 	background-color: #f5f5f5;
 	float: left;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 	margin-bottom: 5%;
-	margin-left: 26%;
-	margin-right: 2%;
+	margin-left: 20%;
+	/*margin-right: 2%;*/
 
 }
 
