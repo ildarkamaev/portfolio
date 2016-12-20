@@ -38,10 +38,7 @@
 #AboutSection img{
 	width: 100%;
 	margin: 0px;
-}
-
-#AboutSection p{
-	padding-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*-----------Portfolio------------*/
