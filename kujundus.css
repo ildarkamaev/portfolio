@@ -108,6 +108,10 @@ nav ul li:hover ul{
     animation-delay: 1s;
 }
 
+.active{
+	background-color: #d75c37;
+}
+
 nav ul ul{
     display:none;
     position: relative;
