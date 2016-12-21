@@ -34,16 +34,40 @@
 
 	}
 
-<<<<<<< HEAD
+/*-------Projekt----------*/
+#Project{
+	width: 100%;
+	margin: 0 auto;
+}
+
+#Project p{
+	padding-left: 20px;
+}
+
+.HeadImage{
+	height: 100%;
+}
+
+.ProjectImage img{
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+
 /*-------ABOUT-----------*/
 #AboutSection img{
 	width: 100%;
 	margin: 0px;
 	margin-bottom: 20px;
 }
-=======
 
->>>>>>> parent of ab40576... About sectioni muudatused
+#AboutSection p{
+	margin-left: 0px;
+	padding-left: 16px;
+}
+
+
+
 
 /*-----------Portfolio------------*/
 	#MainPortfolio{
@@ -55,7 +79,7 @@
     #MainPortfolio img{
         width: 100%;
         height: auto;
-				margin-left: 0px;
+		margin-left: 0px;
     }
 
 /*---------AboutSection-----------------*/
