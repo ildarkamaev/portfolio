@@ -27,37 +27,46 @@
 		height: auto;
 	}
 
+
 	#SecFooter{
 		margin: 0 auto;
 		width: 93%;
 
 	}
 
+/*-------Projekt----------*/
+#Project{
+	width: 100%;
+	margin: 0 auto;
+}
 
-	.meny{
-		display: block;
-	}
+#Project p{
+	padding-left: 20px;
+}
 
-	.dropdown_content a{
-	font-size: 18px;
-	background-color: #2d546d;
+.HeadImage{
+	height: 100%;
+}
 
-	}
+.ProjectImage img{
+	width: 100%;
+	height: auto;
+	margin-left: 0px;
+}
+
+/*-------ABOUT-----------*/
+#AboutSection img{
+	width: 100%;
+	margin: 0px;
+	margin-bottom: 20px;
+}
+
+#AboutSection p{
+	margin-left: 0px;
+	padding-left: 16px;
+}
 
 
-	.dropdown a:hover .dropdown_content {
-	    display: block;
-	}
-
-	nav ul li:hover ul{
-	    display: block;
-	}
-
-	nav ul ul{
-	    display:block;
-	    position: relative;
-
-	}
 
 
 /*-----------Portfolio------------*/
@@ -70,7 +79,7 @@
     #MainPortfolio img{
         width: 100%;
         height: auto;
-				margin-left: 0px;
+		margin-left: 0px;
     }
 
 /*---------AboutSection-----------------*/
@@ -97,9 +106,34 @@
 		width: 100%;
 	}
 
+	#ConSection p{
+		margin-left: 10px;
+		width: 90%;
+	}
+
 	#FindMe{
 		width: 100%;
-		
+
+	}
+
+	#FindMe ul li{
+		margin: 0 auto;
+	}
+
+	#FindMe img{
+		padding: 10px;
+		padding-left: 0px;
+	}
+
+	#ConForm{
+		margin-left: 20px;
+		float:left;
+		width: 100%;
+
+	}
+
+	input[type="submit"]{
+		margin-left: 10px;
 	}
 
 }

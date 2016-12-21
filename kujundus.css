@@ -2,7 +2,7 @@
 
 body{
 
-	background-color: #c3d7df;
+	background-color: #f5f5f5;
 	margin: 0px;
 	margin-top: 0px;
 	font-family: Arial, Helvetica, Sans-serif;
@@ -10,8 +10,7 @@ body{
 
 #sidebar{
 	background-color: #224359;
-	/*background-color:  #396684*/;
-	width: 25%;
+	width: 20%;
 	height: 100%;
 	margin-top: 0px;
 	padding-top: 20px;
@@ -95,7 +94,7 @@ nav ul li a {
 	text-align: center;
 	color: white;
 	font-size: 20px;
-	padding: 10px 10px 10px 10px;
+	padding: 25px 10px 25px 10px;
 
 }
 
@@ -104,22 +103,13 @@ nav ul li a:hover{
 }
 
 
-
-.dropdown_content a{
-	font-size: 18px;
-	background-color: #2d546d;
-
-}
-
-
-.dropdown a:hover .dropdown_content {
-    display: block;
-    animation-delay: 1s;
-}
-
 nav ul li:hover ul{
     display: block;
     animation-delay: 1s;
+}
+
+.active{
+	background-color: #d75c37;
 }
 
 nav ul ul{
@@ -128,54 +118,15 @@ nav ul ul{
 
 }
 
-.meny{
-	display: none;
-}
 
-
-
-#Breadcrumb{
-	display: inline;
-	background-color:  #224359;
-	width: 75%;
-	height: 20px;
-	/*padding: 0px;
-	margin: 0px;*/
-	float: left;
-	margin-left: 25%;
-}
-
-/*
-#Breadcrumb ul li{
-	display: inline;
-	list-style-type: none;
-	margin-left: 5px;
-	margin-top: 90px;
-}
-
-#Breadcrumb ul li a{
-	/*padding-top: 0px;
-	padding-bottom: 0px;
-	padding-left: 3px;
-	padding-right: 3px;
-	border-right: 1px white solid;
-	text-decoration: none;
-	color: white;
-}
-*/
-
-#Breadcrumb ul li a:hover{
-	background-color: #d75c37;
-
-}
 
 #MainSection{
 	background-color: #f5f5f5;
 	float: left;
-	margin-top: 5%;
+	/*margin-top: 5%;*/
 	margin-bottom: 5%;
-	margin-left: 26%;
-	margin-right: 2%;
+	margin-left: 20%;
+	/*margin-right: 2%;*/
 
 }
 
@@ -203,13 +154,16 @@ nav ul ul{
 
 #THeader{
 	background-color: #d75c37;
-	padding-top: 5px;
+	margin-top: 0px;
+	padding-top: 0px;
 	padding-bottom: 5px;
 }
 
 #THeader h1{
 	color: white;
-	margin-left: 20px;
+	margin-top: 0px;
+	padding-top: 20px;
+	margin-left: 40px;
 }
 
 #MainFooter p{
@@ -218,13 +172,21 @@ nav ul ul{
 	text-align: center;
 }
 
+#MainFooter img{
+	width: 15%;
+	height: 15%;
+	margin-top: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
+
 #SecFooter{
 	float: left;
-	margin-left: 25%;
-
+	margin-left: 20%;
 	background-color: #384a57;
-	padding: 10px 10px 20px 20px;
-	width: 73%;
+	padding: 40px 10px 40px 20px;
+	width: 78%;
 }
 
 #SecFooter p{
@@ -236,10 +198,10 @@ nav ul ul{
 #ConSection{
 	background-color: #f5f5f5;
 	float: left;
-	margin-top: 5%;
-	margin-left: 26%;
+	margin-top: 0%;
+	margin-left: 20%;
 	margin-bottom: 10%;
-	width: 72%;
+	width: 80%;
 
 
 }
@@ -267,6 +229,27 @@ nav ul ul{
 	list-style: none;
 }
 
+#FindMe p{
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+#FindMe h2{
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+#FindMe ul li{
+	display: inline;
+}
+
+#FindMe img{
+	height: 70px;
+	width: 70px;
+	padding: 20px;
+
+}
+
 
 #ConForm{
 	display: left;
@@ -290,7 +273,7 @@ input{
 }
 
 textarea{
-	width: 85%;
+	width: 80%;
 	height: 200px;
 	padding: 10px;
 	margin: 10px;'
@@ -305,6 +288,7 @@ input[type="text"]:focus{
 input[type="submit"]{
 	background-color: #224359;
 	padding: 10px;
+	margin-left: 55px;
 	border: none;
 	color: white;
 	font-size: 16px;
@@ -323,7 +307,7 @@ input[type="submit"]:hover{
 	float: left;
 	margin-top: 0%;
 	margin-bottom: 0%;
-	margin-left: 25%;
+	margin-left: 20%;
 	margin-right: 0%;
 }
 
@@ -334,11 +318,48 @@ input[type="submit"]:hover{
 }
 
 #MainPortfolio img:hover{
-	opacity: 0.1;
+	opacity: 0.8;
+}
+
+/*------------Projektileht------------------------*/
+#Project{
+	width: 80%;
+	float: left;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	margin-right: 0%;
+}
+
+.HeadImage{
+	width: 100%;
+	margin: 0px;
+}
+
+#Project h2{
+	margin-top: 0px;
+}
+
+#Project p{
+	font-size: 18px;
+	padding-left: 80px;
+	padding-right: 40px;
 }
 
 
 
+.ProjectImage img{
+	display: inline;
+	float: left;
+	width: 25%;
+
+}
+
+.ProjectImage img:hover{
+	opacity: 0.7;
+
+}
+/*
 /*
 
 .imgWrap .text{
@@ -361,17 +382,17 @@ input[type="submit"]:hover{
 /*--------------about------------------*/
 
 #AboutSection{
-	background-color: #f5f5f5;
+	width: 80%;
 	float: left;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	margin-left: 26%;
-	margin-right: 2%;
-
+	margin-top: 0%;
+	margin-bottom: 0%;
+	margin-left: 20%;
+	margin-right: 0%;
 }
 
 #AboutSection p{
-	padding-left: 20px;
+	font-size: 18px;
+	padding-left: 40px;
 	padding-right: 20px;
 }
 
@@ -409,4 +430,8 @@ input[type="submit"]:hover{
 
 .Services img:hover{
 	opacity: 0.1;
+}
+
+.meny{
+	display: none;
 }
