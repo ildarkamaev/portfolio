@@ -354,6 +354,11 @@ input[type="submit"]:hover{
 	width: 25%;
 
 }
+
+.ProjectImage img:hover{
+	opacity: 0.7;
+
+}
 /*
 /*
 
